@@ -1,0 +1,9 @@
+andres fulano zutano 
+aviles dulce zazueta 
+cuadras gonzalez efrain 
+dulce zazueta aviles 
+efrain cuadras gonzalez 
+fulano zutano andres 
+gonzalez efrain cuadras 
+zazueta aviles dulce 
+zutano andres fulano 
