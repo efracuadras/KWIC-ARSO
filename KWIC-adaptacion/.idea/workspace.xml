@@ -2,12 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50cfc2fb-9835-4920-9dad-ca928d025055" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/frases/Frases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/frases.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/directory/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/directory/Directory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KWIC-adaptacion/com/pdf/PDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KWIC-adaptacion/com/pdf/PDF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KWIC-adaptacion/files/frases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KWIC-adaptacion/files/frases.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KWIC-adaptacion/files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KWIC-adaptacion/files/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/frases/Frases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/frases/Frases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pdf/PDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pdf/PDF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/frases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/frases.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/ar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/ar.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/bg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/bg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/bn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/bn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/ca.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/ca.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/cs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/cs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/da.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/da.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/de.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/de.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/el.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/el.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/en.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/en.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/es.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/es.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/eu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/eu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/fa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/fa.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/fi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/fi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/fr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/fr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/ga.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/ga.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/gl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/gl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/he.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/he.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/hi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/hi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/hr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/hr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/hu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/hu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/hy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/hy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/id.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/it.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/it.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/ja.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/ja.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/ko.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/ko.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/ku.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/ku.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/lt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/lt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/lv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/lv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/mr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/mr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/nl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/nl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/no.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/no.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/pl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/pl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/pt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/pt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/pt_br.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/pt_br.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/ro.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/ro.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/ru.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/ru.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/sk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/sk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/sv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/sv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/th.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/th.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/tr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/tr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/uk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/uk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/ur.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/ur.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/zh_cn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/zh_cn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords-0.1/languages/zh_tw.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/stopwords-0.1/languages/zh_tw.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,24 +115,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
-          <entry key="txt" value="1" />
+          <entry key="java" value="6" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="6" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="770" />
+          <entry key="java" value="1415" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="770" />
+          <entry key="JAVA" value="1415" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -93,7 +144,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="-811">
               <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,25 +156,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pdf/PDF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="107" column="9" lean-forward="true" selection-start-line="84" selection-start-column="8" selection-end-line="107" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/files/frases.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/directory/Directory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="-59">
+              <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,14 +167,30 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/files/output.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/frases/Frases.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/asd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="102" column="88" selection-start-line="102" selection-start-column="72" selection-end-line="102" selection-end-column="88" />
+            <state relative-caret-position="192">
+              <caret line="102" column="95" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,6 +224,7 @@
       <find>alphabetizing</find>
       <find>system</find>
       <find>regexList</find>
+      <find>System</find>
       <find>stopWordsPattern</find>
     </findStrings>
     <replaceStrings>
@@ -194,10 +245,12 @@
         <option value="$PROJECT_DIR$/src/com/caltalogo/Main.java" />
         <option value="$PROJECT_DIR$/src/com/caltalogo/Catalogo.java" />
         <option value="$PROJECT_DIR$/src/com/pdf/Catalogo.java" />
-        <option value="$PROJECT_DIR$/src/com/pdf/PDF.java" />
-        <option value="$PROJECT_DIR$/src/com/frases/Frases.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/directory/Directory.java" />
+        <option value="$PROJECT_DIR$/src/files/frases.txt" />
+        <option value="$PROJECT_DIR$/src/com/pdf/PDF.java" />
+        <option value="$PROJECT_DIR$/src/com/frases/Frases.java" />
+        <option value="$PROJECT_DIR$/src/files/output.txt" />
       </list>
     </option>
   </component>
@@ -238,7 +291,7 @@
               <item name="KWIC-adaptacion" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="directory" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KWIC-adaptacion" type="b2602c69:ProjectViewProjectNode" />
@@ -253,10 +306,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551866117268" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551896489673" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/files" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -270,10 +328,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Directory">
+  <component name="RunManager" selected="Application.Frases">
     <configuration name="Directory" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.directory.Directory" />
       <module name="KWIC-adaptacion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Frases" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frases.Frases" />
+      <module name="KWIC-adaptacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -329,9 +400,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.PDF" />
+      <item itemvalue="Application.Frases" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Frases" />
         <item itemvalue="Application.PDF" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -373,7 +446,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4060241" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30722892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42771083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,50 +485,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopwords-0.1/languages/es.txt">
+    <entry file="file://$PROJECT_DIR$/src/files/stopwords-0.1/languages/es.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="103" column="4" lean-forward="true" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/frases/Frases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/frases.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pdf/PDF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="107" column="9" lean-forward="true" selection-start-line="84" selection-start-column="8" selection-end-line="107" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/asd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="102" column="88" selection-start-line="102" selection-start-column="72" selection-end-line="102" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -469,8 +502,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3483">
+          <caret line="497" column="9" selection-start-line="497" selection-start-column="9" selection-end-line="497" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-811">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/asd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="102" column="95" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/frases.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pdf/PDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/frases/Frases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/files/output.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

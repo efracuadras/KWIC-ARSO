@@ -23,7 +23,7 @@ public class PDF {
 
         try {
 
-            getStopWords("es");
+            getStopWords("stopwords-0.1/languages/es.txt");
 
             FileInputStream fis = new FileInputStream("src/files/principito.pdf");
             PDFParser parser = new PDFParser( fis );
@@ -45,7 +45,7 @@ public class PDF {
 
             Main.alphabetizing();
             scoreWords();
-            output(new FileWriter(new File("src/files/output.txt")));
+            output(new FileWriter(new File("src/files/output.txt")), 3);
 
         } catch (IOException e) {
             System.out.println("No se puedo escribir el archivo");
@@ -111,15 +111,10 @@ public class PDF {
     /**
      * Module output Component.
      */
-    public static void output(Writer writer) throws IOException {
+    public static void output(Writer writer, Integer max) throws IOException {
 
         for (String key : wordFrequencies.keySet()) {
-            if (wordFrequencies.get(key) > 3) {
-
-                System.out.println(key);
-                System.out.println( wordFrequencies.get(key));
-                System.out.println( wordReferences.get(key).toString() );
-
+            if (wordFrequencies.get(key) > max) {
                 String pages = wordReferences.get(key).toString();
                 writer.write(key + " : " + pages);
                 writer.write('\n');
@@ -129,15 +124,15 @@ public class PDF {
         writer.flush();
     }
 
-    public static void getStopWords(String language){
+    public static void getStopWords(String path){
         InputStream stream;
 
         // Read the stop words file for the given language
         //InputStream stream = this.getClass().getResourceAsStream("stopwords-0.1/languages/" + language + ".txt");
         try{
-            stream = new FileInputStream("stopwords-0.1/languages/" + language + ".txt");
+            stream = new FileInputStream("src/files/"+ path);
         }catch (Exception e){
-            throw new Error("No se encontraron las stopwords - " + language);
+            throw new Error("No se encontraron las stopwords - " + path);
         }
 
         String line;
@@ -161,9 +156,9 @@ public class PDF {
                 // Join all regexes into global pattern
                 stopWordsPattern = String.join("|", regexList);
             } catch (Exception e) {
-                throw new Error("Error al leer las stopwords - " + language);
+                throw new Error("Error al leer las stopwords - " + path);
             }
-        } else throw new Error("No se encontraron las stopwords - " + language);
+        } else throw new Error("No se encontraron las stopwords - " + path);
 
     }
 }
