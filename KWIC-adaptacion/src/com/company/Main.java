@@ -21,7 +21,6 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-
             input(new FileReader(new File("src/files/input.txt")));
             circularShift(0);
             alphabetizing();

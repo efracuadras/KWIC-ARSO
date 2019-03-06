@@ -1,4 +1,8 @@
-ANTOINE : [1, 2]
-EXUPÉRY : [1, 2]
-PRINCIPITO : [1, 2]
-SAINT : [1, 2]
+Apuntes unidad 8-REPARADO.rtf
+Apuntes unidad 8.doc
+UNIDAD 4.doc
+Unidad 1 Introducción a la AS.ppt
+Unidad 4 Evaluacion de arquitectura de software.ppt
+Unidad 2 Arquitectura de Software orientada a los QA.ppt
+Unidad 3 Diseño basado en la funcionalidad.ppt
+Unidad 5 Transformación de Arquitecturas.ppt

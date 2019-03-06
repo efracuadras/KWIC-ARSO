@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50cfc2fb-9835-4920-9dad-ca928d025055" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/frases/Frases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/frases.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KWIC-adaptacion/com/pdf/PDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KWIC-adaptacion/com/pdf/PDF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KWIC-adaptacion/files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KWIC-adaptacion/files/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/directory/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/directory/Directory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/output.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,6 +64,28 @@
           <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="770" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="770" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -69,8 +93,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="30" column="28" selection-end-line="168" />
+            <state relative-caret-position="90">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pdf/PDF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="107" column="9" lean-forward="true" selection-start-line="84" selection-start-column="8" selection-end-line="107" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/files/frases.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/directory/Directory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,40 +132,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/pdf/PDF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="18" lean-forward="true" selection-end-line="169" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/directory/Directory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/files/output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/asd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="85" column="72" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="72" />
+            <state relative-caret-position="139">
+              <caret line="102" column="88" selection-start-line="102" selection-start-column="72" selection-end-line="102" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,6 +173,8 @@
       <find>page</find>
       <find>alphabetizing</find>
       <find>system</find>
+      <find>regexList</find>
+      <find>stopWordsPattern</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -164,8 +194,10 @@
         <option value="$PROJECT_DIR$/src/com/caltalogo/Main.java" />
         <option value="$PROJECT_DIR$/src/com/caltalogo/Catalogo.java" />
         <option value="$PROJECT_DIR$/src/com/pdf/Catalogo.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/pdf/PDF.java" />
+        <option value="$PROJECT_DIR$/src/com/frases/Frases.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/directory/Directory.java" />
       </list>
     </option>
   </component>
@@ -206,7 +238,7 @@
               <item name="KWIC-adaptacion" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="directory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KWIC-adaptacion" type="b2602c69:ProjectViewProjectNode" />
@@ -221,7 +253,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551843517257" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551866117268" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -238,7 +270,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PDF">
+  <component name="RunManager" selected="Application.Directory">
+    <configuration name="Directory" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.directory.Directory" />
+      <module name="KWIC-adaptacion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="KWIC-adaptacion" />
@@ -286,6 +325,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Directory" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.PDF" />
@@ -324,7 +364,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -333,15 +373,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.019277109" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4060241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42771083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32866243" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32771084" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,34 +419,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/directory/Directory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/frases/Frases.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/asd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="72" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/files/frases.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="28" selection-end-line="168" />
+        <state relative-caret-position="90">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -415,13 +441,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pdf/PDF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" lean-forward="true" selection-end-line="169" />
+        <state relative-caret-position="341">
+          <caret line="107" column="9" lean-forward="true" selection-start-line="84" selection-start-column="8" selection-end-line="107" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/asd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="102" column="88" selection-start-line="102" selection-start-column="72" selection-end-line="102" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/directory/Directory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

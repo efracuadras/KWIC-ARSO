@@ -1,4 +1,3 @@
-ANTOINE : [1, 2]
-EXUPÉRY : [1, 2]
-PRINCIPITO : [1, 2]
-SAINT : [1, 2]
+2-SoftwareProcess.ppt
+Unidad 4 Evaluacion de arquitectura de software.ppt
+Unidad 2 Arquitectura de Software orientada a los QA.ppt
