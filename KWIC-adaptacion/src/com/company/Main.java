@@ -40,7 +40,7 @@ public class Main {
         // Bandera fin
         while ((inputChar = fileReader.read()) != -1) {
             System.out.println(inputChar);
-            if (inputChar == '\n') {
+            if (inputChar == '\n' || inputChar == '\r' || inputChar == '\t') {
                 inputChar = ' ';
                 lineIndexes.add(chars.size() + 1);
             }

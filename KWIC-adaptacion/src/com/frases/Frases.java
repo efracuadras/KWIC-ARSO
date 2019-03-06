@@ -50,40 +50,39 @@ public class Frases {
 
     public static void scoreWords(){
 
-        ArrayList<String> regexList = new ArrayList<>();
-        for (String word : PDF.stopWords) {
-            String regex = ".*" + word + ".*";
-            regexList.add(regex);
-        }
+        // Recorremos las stopwords
+        for (String stopword : PDF.stopWords) {
 
-        String regex = String.join("|", regexList);
+            String regex = ".*" + stopword + ".*";
 
-        int index = 0;
-        for (Integer linea : Main.lineIndexes) {
-            int lineStart = linea;
-            int lineEnd = Main.sizeLineIndexes > index + 1 ? Main.lineIndexes.get(index + 1) : Main.sizeChars;
-            int finalIndex = index;
-            int page = Main.alphabetizedIndexes.stream().filter(word->word[0] == finalIndex)
-                    .mapToInt(word-> word[3])
-                    .findFirst()
-                    .getAsInt();
+            // Recorremos las lineas del pdf
+            int index = 0;
+            for (Integer linea : Main.lineIndexes) {
+                int lineStart = linea;
+                int lineEnd = Main.sizeLineIndexes > index + 1 ? Main.lineIndexes.get(index + 1) : Main.sizeChars;
+                int finalIndex = index;
+                int page = Main.alphabetizedIndexes.stream().filter(word->word[0] == finalIndex)
+                        .mapToInt(word-> word[3])
+                        .findFirst()
+                        .getAsInt();
 
-            String sentence = "";
+                String sentence = "";
 
-            for (int charIndex = lineStart; charIndex < lineEnd; charIndex++) {
-                sentence += Main.chars.get(charIndex);
+                for (int charIndex = lineStart; charIndex < lineEnd; charIndex++) {
+                    sentence += Main.chars.get(charIndex);
+                }
+
+                sentence = sentence.trim().replaceAll("[-+.^:,;!0123456789()?¿—¡\"]","");
+
+                if(sentence.length() > 0  && sentence.matches(regex) ){
+                    PDF.wordFrequencies.put(stopword, PDF.wordFrequencies.getOrDefault(stopword, 0) + 1);
+                    Set<Integer> pages = PDF.wordReferences.getOrDefault(stopword, new HashSet<>());
+                    pages.add(page);
+                    PDF.wordReferences.put(stopword, pages );
+                }
+
+                index++;
             }
-
-            sentence = sentence.trim().replaceAll("[-+.^:,;!0123456789()?¿—¡\"]","");
-
-            if(sentence.length() > 0  && sentence.matches(regex) ){
-                PDF.wordFrequencies.put(sentence, PDF.wordFrequencies.getOrDefault(sentence, 0) + 1);
-                Set<Integer> pages = PDF.wordReferences.getOrDefault(sentence, new HashSet<>());
-                pages.add(page);
-                PDF.wordReferences.put(sentence, pages );
-            }
-
-            index++;
         }
     }
 }
